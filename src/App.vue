@@ -2,18 +2,25 @@
 	<Experiment title="Test Experiment">
 
 		<InstructionScreen :title="'Welcome'">
-			This is a sample introduction screen.
+			Thank you very much for taking part in our experiment. Your participation is completely voluntary and you can quit at any time.
 			<br />
 			<br />
-			This screen welcomes the participant and gives general information about
-			the experiment.
+			Your data collected in this experiment is anonymous and will be used for research purposes only.
 
 
 		</InstructionScreen>
 
 		<InstructionScreen :title="'General Instructions'">
-			This is a sample instructions view.
-
+			In this experiment, you will learn a few new words of a novel language. The whole experiment includes 3 learning phases. After each learning phase, there will be a testing phase. In the learning phases, you will see a new word, with its meaning represented by a picture as below. 
+			<br />
+			<br />
+			For each word, you have 5 seconds to memorize it. When time is out, the word will disappear (automatically) and you can click the button "next" to move to the next word. In the testing phases, a picture (like the picture above) will show on the screen. You need to recall the word and type it (with your keyboard). 
+			<br />
+			<br />
+			In short, your task is to memorize a few words with their meaning representations, and then recall those words in testing phases. The experiment will take approximately 20 minutes. We encourage you to work in one sitting with full concentration and avoid external disturbance. 
+			<br />
+			<br />
+			If you are ready to start the experiment, please click the button below.
 		</InstructionScreen>
 
 		<ConnectInteractiveScreen :title="'Connecting...'"></ConnectInteractiveScreen>
